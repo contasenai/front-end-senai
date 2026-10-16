@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Honda</h1>
+            <thead><p>Você de Nave!</p></thead>
+            <nav>
+                <a href="catalogo.html">Sobre o Honda</a>
+                <a href="index.html">Carros +</a>
+                <a href="metodo">Motos</a>
+                <a href="Escola">Escolas</a>
+                <a href="video">Blog</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+            <table border="1">
+                <thead>
+                <tbody>
+                <hr>
+                <h2>Encontre a concecionaria mais <br> próxima de você </h2> 
+                    <img src="imagemhonda.jpg" alt="Lance seu Foguetão">
+                <p>Preencha os dados abaixo:</p>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend><b>1 - Informações Pessoais</b></legend>
+
+                        <label for="campo-nome">Nome Completo:</label><br>
+                        <input type="text", name="nome_completo" id="campo-nome"
+                        placeholder="Informe seu nome" required size="40"> <br>
+
+                        <label for="campo-email">Email Pessoal</label><br>
+                        <input type="email", name="email-pessoal" id="campo-email"
+                        placeholder="Informe seu E-mail" required size="40"> <br>
+
+                        <label for="campo-telefone">Número telefone:</label><br>
+                        <input type="tel", name="numero_telefone" id="campo-telefone"
+                        placeholder="Informe seu Telefone" required size="40"><br>
+
+                        <label for="data-nascimento">Digite sua Data de Nascimento</label><br>
+                        <input type="date", name="Data-nascimeto" id="campo-nascimento"
+                        required >
+                    </fieldset>
+                    <fieldset>
+                        <legend><b>2 - Prefêrencias do Workshop </b2></legend>
+
+                    <label for="Campo-curso">Selecione o Workshop desejado:</label><br>
+                    <select name="selecao_curso" id="campo-curso" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="front">Civic</option>
+                            <option value="back">Hrv</option>
+                            <option value="mobile">Fit</option>
+                    </select>
+
+                    <p><b>Selecione o turno do workshop</b></p>
+                    <input type="radio" name="turno_escolhido" id="campo-turno-manha" value="manha"
+                    <label for="campo-turno-manha">Turno da Manhã</label>
+
+                    <input type="radio" name="turno_escolhido" id="campo-turno-tarde" value="tarde">
+                    <label for="campo-turno-tarde">Turno  da Tarde</label>
+
+                    <input type="radio" name="turno_escolhido" id="campo-turno_noite" value="noite">
+                    <label for="campo-turno-noite">Turno da Noite</label>
+
+                    <p><b>Topicos de Interesses</b></p>
+                    <input type="checkbox" name="topicos[]"
+                    id="topicos_html" value="html">
+                    <label for="topicos_html">BRANCO</label>
+
+                    <input type="checkbox" name="topicos[]"
+                    id="topicos_css" value="css">
+                    <label for="topicos_css">PRETO</label>
+
+                    
+                    <input type="checkbox" name="topicos[]"
+                    id="topicos_js" value="js">
+                    <label for="topicos_js">PRATA</label>
+
+                    <br>
+
+                    <label for="campo-observação">Observação ou Duvidas</label><br>
+                    <textarea name="Observação_adicionais" id="campo-observacao" rows="4" cols="50" placeholder="informe aqui dados adicionais pertinentes ao evento..."></textarea>
+
+                 </fieldest>
+                 <br><br>
+
+                 <button type="submit"><b>Confirmar meu cadastro</b></button>
+
+                 <button type="reset"><b>Limpar formulário</b></button>
+                    </fieldset>
+                </form>
+
+            
+         
+                            </tbody>
+                        </thead>
+                     </table>
+                </article>
+            </section>
+        </main>
+    </body>
+
+    
+</html>
